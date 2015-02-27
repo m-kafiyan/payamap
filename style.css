@@ -66,7 +66,7 @@ section.header{
 	min-height:950px;
 }
 .lh-lg{
-	line-height: 2.5;
+	padding-top: 4%;
 }
 .tabligh{
 	font-size:65px;
@@ -139,49 +139,52 @@ section.header{
 }
 section.start-page{
 	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
-	background:url('image/map2.jpg') no-repeat fixed center center;
+	background:url('image/map2.jpg') no-repeat center center;
 	background-position-y: 100%;
 	background-size: cover;
-	min-height:800px;
+	min-height:950px;
 
 }
 section.newcity-page{
 	color: white;
 	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
-	background:url('image/backgray.png') repeat-x fixed center center;
-	min-height:800px;
+	background:url('image/backgray.png') repeat-x center center;
+	min-height:950px;
 	
 }
 div.newcitybg{
-	background: url('image/city.png') no-repeat center bottom fixed;
-	min-height:800px;
+	background: url('image/city.png') no-repeat center bottom;
+	min-height:950px;
 	
 
 }
 section.customer-page{
-	background: #d7d8a0 url('image/people.png') no-repeat fixed center center;
+	background: #d7d8a0 url('image/people.png') no-repeat center center;
 	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
 	color: white;
+	min-height: 950px;
 	background-size: cover;
-	background-position-y: -14%;
+	/*background-position-y: -14%;*/
 }
 section.contact-page{
 	background: #5894a1 url('image/contact.jpg') no-repeat fixed right bottom;
 	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
 	color: white;
+	min-height: 950px;
+
 }
 .left-arrow img,
 .right-arrow img,
 .center-arrow img{
-	width: 53.3%;
-	margin-left: 23%;
-	margin-right: 23%;
+	
+	margin-left: 16%;
+	margin-right: 16%;
 }
 .left-arrow p,
 .right-arrow p,
 .center-arrow p{
-	font-size: 25px;
-	padding: 3% 11% 0 11%;
+	font-size: 30px;
+	padding: 6% 5% 0% 5%;
 	color: #3a3a3a;
 }
 
@@ -193,6 +196,7 @@ section.contact-page{
 	text-align: center;
 	padding: 0.75% 0% 0.75% 0%;
 	font-size: 30px;
+	margin-top: 6%;
 }
 a.startbtn:hover{
 	text-decoration: none;
@@ -201,11 +205,11 @@ a.startbtn:hover{
 }
 .town{
 	min-height: 500px;
-	padding-top: 13%;
+	padding-top: 14%;
 }
 .town p,
 .customer p{
-	font-size: 40px;
+	font-size: 45px;
 	color: #000;
 }
 .town a{
@@ -224,25 +228,25 @@ a.startbtn:hover{
 	font-size: 22px;
 }
 .info1{
-	padding-top: 28%;
+	padding-top: 32%;
 	margin-bottom: 0 !important;
 
 }
 .info2{
-	line-height: 0.2;
+	padding-top: 2%;
 }
 .customer .more-info{
 	color: #000;
-	font-size: 22px;
+	font-size: 25px;
 	display: block;
-	margin-left:17%;
+	margin-left:14%;
 	border-bottom: 2px solid #000;
 }
 .customer .more-info:hover{
 	text-decoration: none;
 }
 .free-signup{
-	margin-top: 5%;
+	margin-top: 14%;
 }
 .free-signup a{
 	color: #fff;
@@ -258,14 +262,14 @@ a.startbtn:hover{
 .map-address{
 	background: url('image/map.jpg') no-repeat;
 	width: 43%;
-	min-height: 800px;
+	min-height: 950px;
 	float: left;
 
 }
 .form{
 	float: right;
 	width: 57%;
-	min-height: 800px;
+	min-height: 950px;
 	border-left: 6px solid #31a59f;
 }
 .form-content{
@@ -321,17 +325,11 @@ a.startbtn:hover{
 }
 
 @media screen and (max-width: 980px) {
-	section.header{
-		min-height: 1280px;
-	}
 	.tabligh{
-		font-size: 43px;
+		font-size: 45px;
 	}
 	.sendsms{
 		font-size: 27px;
-	}
-	.mouse{
-		padding-top: 4%;
 	}
 	.clouds1{
 		top: 14%;
@@ -345,40 +343,31 @@ a.startbtn:hover{
 	.clouds4{
 		top: 12%;
 	}
-	section.start-page{
-		min-height: 1280px;
-	}
 	.left-arrow img,
 	.right-arrow img,
 	.center-arrow img{
-	width: 55.3%;
-	margin-left: 23%;
-	margin-right: 23%;
+	width: 70%;
 	}
 	.left-arrow p,
 	.right-arrow p,
 	.center-arrow p{
 		font-size: 22px;
-		padding: 3% 7% 0 7%;
+		padding: 3% 6% 0 6%;
 	}
 	.startbtn{
 	font-size: 23px;
 	}
 
-	section.newcity-page{
-		min-height: 1280px;
-	}
-	div.newcitybg{
-		min-height: 1280px;
-
-	}
 	.town{
 		padding-top: 20%;
 	}
-	.town p{
-		font-size: 35px;
+	.town p, .customer p{
+		font-size:37px; 
 	}
+	.customer .more-info{
+		font-size:27px; 
 
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -407,9 +396,6 @@ a.startbtn:hover{
 }
 
 @media screen and (max-width:360px) {
-	section.header{
-		height: 640px;
-	}
 	.tabligh{
 		font-size: 15px;
 	}

@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$('.mouse-move').click(function (){
 		$('html, body').animate({scrollTop:
-			70 }, 600);
+			100 }, 600);
     });
 
 	var i = 0;
