@@ -1,0 +1,418 @@
+/*************Reset-CSS ***************/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0; outline:none; }
+table { border-collapse:collapse; border-spacing:0; outline:none; }
+fieldset, img { border:0; outline:none; }
+ul { list-style:none; outline:none; }
+input { border: none; height: 18px; outline:none; }
+a { text-decoration: none; outline:none; }
+.clear { clear: both; width: 0px !important;height: 0px !important;float: none !important;}
+* { outline:none !important;margin:0;padding: 0; }
+img { border:none; outline:none; }
+*:focus{outline: none !important;}
+h4 {
+font-size: 1em;
+margin: 1.33em 0;
+}
+/************fonts*********************/
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/BYekan.eot');
+    src: url('fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BYekan.woff') format('woff'),
+         url('fonts/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '1BYekan';
+    src: url('fonts/1BYekan.eot');
+    src: url('fonts/1BYekan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/1BYekan.woff') format('woff'),
+         url('fonts/1BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.
+.auto{
+	margin: 0 auto;
+}
+body{
+	background: #a0d8c0;
+	overflow-x:hidden; 
+}
+.font-yekan{
+	font-family:'Yekan';
+ 
+}
+.row-fluid{
+	width: 100%;
+}
+.tel{
+	background: url('image/tel.png') no-repeat left;
+	margin-top: 0.5%;
+}
+span.phonenumber{
+	color: #fff;
+	display: block;
+	font-size: 30px;
+	float: left;
+	padding-left: 9%;
+}
+section.header{
+	color: white;
+	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+	background:#a0d8c0 url('image/bilding.png') no-repeat center bottom; 
+	margin-top: 5%;
+	min-height:950px;
+}
+.lh-lg{
+	line-height: 2.5;
+}
+.tabligh{
+	font-size:65px;
+	padding-top: 6%;
+}
+.sendsms{
+	font-size:40px;
+	padding-top: 5%;
+
+}
+.logo{
+	margin-top: 20px;
+	margin-left:28%
+}
+.mouse{
+	text-align: center;
+	padding-top: 2%;
+}
+.mouse img{
+	max-width: 52px;
+}
+.clouds{
+	overflow: hidden;
+}
+.clouds1{
+	position: absolute;
+	right: -180px;
+	top: 25%;
+	z-index: 2;
+	animation: ballmoving 90s infinite linear;
+	-moz-animation: ballmoving 90s infinite linear;
+	-webkit-animation: ballmoving 90s infinite linear;
+	animation-delay: 20s;
+	-moz-animation-delay: 20s;
+	-webkit-animation-delay:20s;
+}
+.clouds2{
+	position: absolute;
+	right: -180px;
+	top: 29%;
+	z-index: 2;
+	animation: ballmoving 80s infinite linear;
+	-moz-animation: ballmoving 80s infinite linear;
+	-webkit-animation: ballmoving 80s infinite linear;
+	animation-delay: 7s;
+	-moz-animation-delay: 7s;
+	-webkit-animation-delay: 7s;
+
+}
+.clouds3{
+	position: absolute;
+	right: -120px;
+	top: 20%;
+	animation: ballmoving 70s infinite linear;
+	-moz-animation: ballmoving 70s infinite linear;
+	-webkit-animation: ballmoving 70s infinite linear;
+
+}
+.clouds4{
+	position: absolute;
+	top: 23%;
+	right: -115px;
+	animation: ballmoving 83s infinite linear;
+	-moz-animation: ballmoving 83s infinite linear;
+	-webkit-animation: ballmoving 83s infinite linear;
+	animation-delay: 13s;
+	-moz-animation-delay: 13s;
+	-webkit-animation-delay: 13s;
+}
+section.start-page{
+	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+	background:url('image/map2.jpg') no-repeat fixed center center;
+	background-position-y: 100%;
+	background-size: cover;
+	min-height:800px;
+
+}
+section.newcity-page{
+	color: white;
+	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+	background:url('image/backgray.png') repeat-x fixed center center;
+	min-height:800px;
+	
+}
+div.newcitybg{
+	background: url('image/city.png') no-repeat center bottom fixed;
+	min-height:800px;
+	
+
+}
+section.customer-page{
+	background: #d7d8a0 url('image/people.png') no-repeat fixed center center;
+	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+	color: white;
+	background-size: cover;
+	background-position-y: -14%;
+}
+section.contact-page{
+	background: #5894a1 url('image/contact.jpg') no-repeat fixed right bottom;
+	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+	color: white;
+}
+.left-arrow img,
+.right-arrow img,
+.center-arrow img{
+	width: 53.3%;
+	margin-left: 23%;
+	margin-right: 23%;
+}
+.left-arrow p,
+.right-arrow p,
+.center-arrow p{
+	font-size: 25px;
+	padding: 3% 11% 0 11%;
+	color: #3a3a3a;
+}
+
+.startbtn{
+	color: #fff;
+	background: #31a59f;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 0.75% 0% 0.75% 0%;
+	font-size: 30px;
+}
+a.startbtn:hover{
+	text-decoration: none;
+	color: #fff;
+
+}
+.town{
+	min-height: 500px;
+	padding-top: 13%;
+}
+.town p,
+.customer p{
+	font-size: 40px;
+	color: #000;
+}
+.town a{
+	margin-top: 5%;
+	background: #31a59f;
+}
+.customer{
+	min-height: 700px;
+	padding-top: 4.5%;
+
+}
+.customer .info1,
+.customer .info2
+{
+	color: #000;
+	font-size: 22px;
+}
+.info1{
+	padding-top: 28%;
+	margin-bottom: 0 !important;
+
+}
+.info2{
+	line-height: 0.2;
+}
+.customer .more-info{
+	color: #000;
+	font-size: 22px;
+	display: block;
+	margin-left:17%;
+	border-bottom: 2px solid #000;
+}
+.customer .more-info:hover{
+	text-decoration: none;
+}
+.free-signup{
+	margin-top: 5%;
+}
+.free-signup a{
+	color: #fff;
+	background: #31a59f;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	padding: 1% 0 1% 0;
+}
+.free-signup a:hover{
+	text-decoration: none;
+}
+.map-address{
+	background: url('image/map.jpg') no-repeat;
+	width: 43%;
+	min-height: 800px;
+	float: left;
+
+}
+.form{
+	float: right;
+	width: 57%;
+	min-height: 800px;
+	border-left: 6px solid #31a59f;
+}
+.form-content{
+	margin-top: 27%;
+	margin-right: 15%;
+}
+.form-content p{
+	color: #fff;
+	padding-bottom: 3%;
+}
+@-webkit-keyframes ballmoving{
+	0%   { right:-15%;}
+	10% {right: -7%;}
+	15%{right:0%}
+	20{right: 7%}
+    25%  {right:14%;}
+    30{right: 21%}
+    35%  {right:28%;}
+    40{right: 35%}
+    45%  { right:42%;}
+    50{right: 49%}
+    55%  { right:56%;}
+    60{right: 63%}
+    65% { right:70%;}
+    70{right: 77%}
+    75%{ right:84%;}
+    80{right: 91%}
+    85%{ right:98%;}
+    90{}
+    95%{ right:105%;}
+    100%{ right:113%;}
+}
+@-moz-keyframes ballmoving{
+	10% {right: -17%;}
+	15%{right:0%}
+	20{right: 7%}
+    25%  {right:14%;}
+    30{right: 21%}
+    35%  {right:28%;}
+    40{right: 35%}
+    45%  { right:42%;}
+    50{right: 49%}
+    55%  { right:56%;}
+    60{right: 63%}
+    65% { right:70%;}
+    70{right: 77%}
+    75%{ right:84%;}
+    80{right: 91%}
+    85%{ right:98%;}
+    90{}
+    95%{ right:105%;}
+    100%{ right:113%;}
+}
+
+@media screen and (max-width: 980px) {
+	section.header{
+		min-height: 1280px;
+	}
+	.tabligh{
+		font-size: 43px;
+	}
+	.sendsms{
+		font-size: 27px;
+	}
+	.mouse{
+		padding-top: 4%;
+	}
+	.clouds1{
+		top: 14%;
+	}
+	.clouds2{
+		top: 15%;
+	}
+	.clouds3{
+		top: 11%;
+	}
+	.clouds4{
+		top: 12%;
+	}
+	section.start-page{
+		min-height: 1280px;
+	}
+	.left-arrow img,
+	.right-arrow img,
+	.center-arrow img{
+	width: 55.3%;
+	margin-left: 23%;
+	margin-right: 23%;
+	}
+	.left-arrow p,
+	.right-arrow p,
+	.center-arrow p{
+		font-size: 22px;
+		padding: 3% 7% 0 7%;
+	}
+	.startbtn{
+	font-size: 23px;
+	}
+
+	section.newcity-page{
+		min-height: 1280px;
+	}
+	div.newcitybg{
+		min-height: 1280px;
+
+	}
+	.town{
+		padding-top: 20%;
+	}
+	.town p{
+		font-size: 35px;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+
+	.tabligh{
+		font-size: 34px;
+	}
+	.sendsms{
+		font-size: 23px;
+	}
+	.clouds1{
+		top: 12%;
+	}
+	.clouds2{
+		top: 11%;
+	}
+	.clouds3{
+		top: 9%;
+	}
+	.clouds4{
+		top: 10%;
+	}
+	.town p{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width:360px) {
+	section.header{
+		height: 640px;
+	}
+	.tabligh{
+		font-size: 15px;
+	}
+	.sendsms{
+		font-size: 13px;
+	}
+}
