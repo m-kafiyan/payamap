@@ -179,7 +179,7 @@ section.contact-page{
 .right-arrow p,
 .center-arrow p{
 	font-size: 30px;
-	padding: 6% 5% 0% 5%;
+	padding: 6% 4% 0% 4%;
 	color: #3a3a3a;
 }
 
@@ -217,7 +217,7 @@ a.startbtn:hover{
 .customer .info2
 {
 	color: #000;
-	font-size: 22px;
+	font-size: 25px;
 }
 .info1{
 	margin-top: 32%;
@@ -229,7 +229,7 @@ a.startbtn:hover{
 }
 .customer .more-info{
 	color: #000;
-	font-size: 25px;
+	font-size: 30px;
 	display: block;
 	margin-left:14%;
 	margin-right:14%;
@@ -359,17 +359,20 @@ a.startbtn:hover{
 		padding-top: 20%;
 	}
 	.town p, .customer p{
-		font-size:37px; 
+		font-size:40px; 
 	}
 	.customer .more-info{
-		font-size:23px; 
+		font-size:25px; 
 
 	}
 	.info1{
 		margin-top: 60%;
 	}
+	.customer .info1, .customer .info2{
+		font-size: 20px;
+	}
 	.free-signup a{
-		font-size: 23px;
+		font-size: 25px;
 		margin-left: 28.3333%;
 		margin-right: 28.3333%;
 	}
@@ -536,8 +539,8 @@ a.startbtn:hover{
 	}
 
 	.free-signup a{
-		margin-left: 21.333%;
-		margin-right: 21.333%;
+		margin-left: 20.333%;
+		margin-right: 20.333%;
 		height: 35px; 
 	}
 	.free-signup a{
