@@ -16,23 +16,14 @@ margin: 1.33em 0;
 /************fonts*********************/
 @font-face {
     font-family: 'Yekan';
-    src: url('fonts/BYekan.eot');
-    src: url('fonts/BYekan.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BYekan.woff') format('woff'),
-         url('fonts/BYekan.ttf') format('truetype');
+    src: url('fonts/b.eot');
+    src: url('fonts/b.eot?#iefix') format('embedded-opentype'),
+         url('fonts/b.woff') format('woff'),
+         url('fonts/b.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: '1BYekan';
-    src: url('fonts/1BYekan.eot');
-    src: url('fonts/1BYekan.eot?#iefix') format('embedded-opentype'),
-         url('fonts/1BYekan.woff') format('woff'),
-         url('fonts/1BYekan.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-.
+
 .auto{
 	margin: 0 auto;
 }
