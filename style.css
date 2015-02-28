@@ -546,7 +546,7 @@ a.startbtn:hover{
 		font-size: 17px;
 	}
 	.customer .info1, .customer .info2{
-		font-size: 13px;
+		font-size: 16px;
 	}
 
 	.free-signup a{
@@ -557,21 +557,4 @@ a.startbtn:hover{
 	.free-signup a{
 		padding: 2% 0 2% 0;
 	}
-}
-/*question page==================================================*/
-body.question{
-	background: #fff;
-}
-.more-q{
-	min-height:173px;
-	 padding:1px;
-}
-.more-q p{
-	text-align: center;
-	color: #000;
-	margin-top: 8%;
-	font-size: 35px;
-}
-.ques{
-	min-height: 720px;
 }
