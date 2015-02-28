@@ -79,7 +79,8 @@ section.header{
 }
 .logo{
 	margin-top: 20px;
-	margin-left:28%
+	margin-left:28%;
+	margin-right:28%;
 }
 .mouse{
 	text-align: center;
@@ -240,6 +241,7 @@ a.startbtn:hover{
 	font-size: 25px;
 	display: block;
 	margin-left:14%;
+	margin-right:14%;
 	border-bottom: 2px solid #000;
 }
 .customer .more-info:hover{
@@ -328,7 +330,7 @@ a.startbtn:hover{
 		padding-top:6%;
 	}
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1000px) {
 	.tabligh{
 		font-size: 45px;
 	}
@@ -378,13 +380,9 @@ a.startbtn:hover{
 	.free-signup a{
 		font-size: 23px;
 		margin-left: 28.3333%;
+		margin-right: 28.3333%;
 	}
 }
-@media screen and (max-width: 1199px, height:1280){
-
-
-}
-
 @media screen and (max-width: 800px) {
 
 	.tabligh{
@@ -408,9 +406,6 @@ a.startbtn:hover{
 	.town p{
 		font-size: 30px;
 	}
-	/*.info1{
-		padding-top: 62%;
-	}*/
 	.customer .info1, .customer .info2{
 		font-size: 21px;
 	}
@@ -420,16 +415,97 @@ a.startbtn:hover{
 
 }
 
+
+/*screen between 460px and 768px**********************************************/
+@media all and (min-width: 460px) and (max-width:768px){
+	.tabligh{
+		font-size: 28px;
+	}
+	.sendsms{
+		font-size: 23px;
+	}
+	section.start-page{
+		min-height: 1050px;
+	}
+	.left-arrow img, .right-arrow img, .center-arrow img{
+		width: 20%;
+		margin-left: 40%;
+		margin-right: 40%;
+	}
+	.pd-top{
+		padding-top: 5%;
+	}
+	.left-arrow p, .right-arrow p, .center-arrow p{
+		font-size: 19px;
+	}
+	.startbtn{
+		margin-left: 37.667%;
+		font-size: 20px;
+	}
+	.town p, .customer p{
+		font-size: 23px;
+	}
+	.customer .info1, .customer .info2{
+		font-size: 19px;
+	}
+	.customer .more-info,.free-signup a{
+		font-size: 20px;
+	}
+	.free-signup a{
+		margin-left: 21.333%;
+		margin-right: 21.333%;
+	}
+}
+
+
+/*screen between 361px and 459px**********************************************/
+
+@media all and (min-width: 361px) and (max-width:459px){
+	section.start-page{
+		min-height: 1150px;
+	}
+	.left-arrow img, .right-arrow img, .center-arrow img{
+		width: 37%;
+		margin-right: 31.5%;
+		margin-left: 31.5%;
+	}
+	.left-arrow p, .right-arrow p, .center-arrow p{
+		font-size: 17px;
+	}
+	.startbtn{
+		font-size: 20px;
+		margin-left: 38.667%;
+		margin-right: 38.667%;		
+	}
+	.tabligh{
+		font-size: 19px;
+	}
+	.sendsms,
+	.customer .more-info,
+	.free-signup a{
+		font-size: 14px;
+	}
+	.town p, .customer p{
+		font-size: 17px;
+	}
+	.customer .info1, .customer .info2{
+		font-size: 13px;
+	}
+
+}
+
+
+/*screen less than 360px **********************************************/
+
 @media screen and (max-width:360px) {
 	section.header,
-	section.newcity-page {
+	section.newcity-page,
+	section.customer {
 		min-height: 700px;
 	}
 
 	.left-arrow img, .right-arrow img, .center-arrow img{
 		width: 37%;
-	}
-	.left-arrow img, .right-arrow img, .center-arrow img{
 		margin-right: 31.5%;
 		margin-left: 31.5%;
 	}
@@ -456,10 +532,24 @@ a.startbtn:hover{
 	.tabligh{
 		font-size: 19px;
 	}
-	.sendsms{
+	.sendsms,
+	.customer .more-info,
+	.free-signup a{
 		font-size: 14px;
 	}
-	.town p{
+	.town p, .customer p{
 		font-size: 17px;
+	}
+	.customer .info1, .customer .info2{
+		font-size: 13px;
+	}
+
+	.free-signup a{
+		margin-left: 21.333%;
+		margin-right: 21.333%;
+		height: 35px; 
+	}
+	.free-signup a{
+		padding: 2% 0 2% 0;
 	}
 }
