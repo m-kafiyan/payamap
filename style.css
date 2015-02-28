@@ -23,6 +23,15 @@ margin: 1.33em 0;
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato.eot');
+    src: url('fonts/Lato.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Lato.woff') format('woff'),
+         url('fonts/Lato.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .auto{
 	margin: 0 auto;
@@ -33,7 +42,9 @@ body{
 }
 .font-yekan{
 	font-family:'Yekan';
- 
+}
+.font-Lato{
+	font-family: 'Lato';
 }
 .row-fluid{
 	width: 100%;
