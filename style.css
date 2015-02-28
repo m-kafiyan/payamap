@@ -173,6 +173,9 @@ section.contact-page{
 	min-height: 950px;
 
 }
+.pd-top{
+	padding-top:10%;
+}
 .left-arrow img,
 .right-arrow img,
 .center-arrow img{
@@ -204,7 +207,7 @@ a.startbtn:hover{
 
 }
 .town{
-	min-height: 500px;
+
 	padding-top: 14%;
 }
 .town p,
@@ -212,10 +215,7 @@ a.startbtn:hover{
 	font-size: 45px;
 	color: #000;
 }
-.town a{
-	margin-top: 5%;
-	background: #31a59f;
-}
+
 .customer{
 	min-height: 700px;
 	padding-top: 4.5%;
@@ -228,7 +228,7 @@ a.startbtn:hover{
 	font-size: 22px;
 }
 .info1{
-	padding-top: 32%;
+	margin-top: 32%;
 	margin-bottom: 0 !important;
 
 }
@@ -323,8 +323,12 @@ a.startbtn:hover{
     95%{ right:105%;}
     100%{ right:113%;}
 }
-
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1920){
+	.pd-top{
+		padding-top:6%;
+	}
+}
+@media screen and (max-width: 1199px) {
 	.tabligh{
 		font-size: 45px;
 	}
@@ -355,7 +359,7 @@ a.startbtn:hover{
 		padding: 3% 6% 0 6%;
 	}
 	.startbtn{
-	font-size: 23px;
+	font-size: 27px;
 	}
 
 	.town{
@@ -365,18 +369,29 @@ a.startbtn:hover{
 		font-size:37px; 
 	}
 	.customer .more-info{
-		font-size:27px; 
+		font-size:23px; 
 
 	}
+	.info1{
+		margin-top: 60%;
+	}
+	.free-signup a{
+		font-size: 23px;
+		margin-left: 28.3333%;
+	}
+}
+@media screen and (max-width: 1199px, height:1280){
+
+
 }
 
 @media screen and (max-width: 800px) {
 
 	.tabligh{
-		font-size: 34px;
+		font-size: 40px;
 	}
 	.sendsms{
-		font-size: 23px;
+		font-size: 29px;
 	}
 	.clouds1{
 		top: 12%;
@@ -393,13 +408,58 @@ a.startbtn:hover{
 	.town p{
 		font-size: 30px;
 	}
+	/*.info1{
+		padding-top: 62%;
+	}*/
+	.customer .info1, .customer .info2{
+		font-size: 21px;
+	}
+	.customer .more-info{
+		font-size: 22px;
+	}
+
 }
 
 @media screen and (max-width:360px) {
+	section.header,
+	section.newcity-page {
+		min-height: 700px;
+	}
+
+	.left-arrow img, .right-arrow img, .center-arrow img{
+		width: 37%;
+	}
+	.left-arrow img, .right-arrow img, .center-arrow img{
+		margin-right: 31.5%;
+		margin-left: 31.5%;
+	}
+	.left-arrow p, .right-arrow p, .center-arrow p{
+		font-size: 17px;
+	}
+	.startbtn{
+		font-size: 20px;
+		margin-left: 38.667%;
+		margin-right: 38.667%;		
+	}
+	.clouds1{
+		width: 20%;
+	}
+	.clouds2{
+		width: 19%;
+	}
+	.clouds3{
+		width: 15%;
+	}
+	.clouds4{
+		width: 16%;
+	}
 	.tabligh{
-		font-size: 15px;
+		font-size: 19px;
 	}
 	.sendsms{
-		font-size: 13px;
+		font-size: 14px;
+	}
+	.town p{
+		font-size: 17px;
 	}
 }
