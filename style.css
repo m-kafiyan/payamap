@@ -417,7 +417,7 @@ a.startbtn:hover{
 
 
 /*screen between 460px and 768px**********************************************/
-@media all and (min-width: 460px) and (max-width:768px){
+@media all and (min-width: 460px) and (max-width:767px){
 	.tabligh{
 		font-size: 28px;
 	}
