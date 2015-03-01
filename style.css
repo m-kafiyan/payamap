@@ -181,12 +181,15 @@ section.contact-page{
 .pd-top{
 	padding-top:10%;
 }
+section.start-page .col-ms-4{
+	width: 30.333%;
+}
 .left-arrow img,
 .right-arrow img,
 .center-arrow img{
 	
-	margin-left: 16%;
-	margin-right: 16%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 .left-arrow p,
 .right-arrow p,
@@ -353,6 +356,7 @@ a.startbtn:hover{
 	.clouds4{
 		top: 12%;
 	}
+
 	.left-arrow img,
 	.right-arrow img,
 	.center-arrow img{
