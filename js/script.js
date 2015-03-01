@@ -12,4 +12,12 @@ $(document).ready(function(){
      $('.mouse-move').attr('src', 'image/' + (++i) + '.png' );
 	}, 500);
 
+	$(window).resize(function() {
+		var pageWidth = $(window).width(); 
+		if( $(window).width()< 768){
+			$('.large-desk').addClass('visibility-hidden');
+			$('.mobile-size').removeClass('visibility-hidden');
+		}
+	});
+
 });
