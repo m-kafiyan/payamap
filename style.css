@@ -32,7 +32,9 @@ margin: 1.33em 0;
     font-weight: normal;
     font-style: normal;
 }
-
+.text-center{
+	text-align: center;
+}
 .auto{
 	margin: 0 auto;
 }
@@ -80,7 +82,7 @@ section.header{
 
 }
 .logo{
-	margin-top: 20px;
+	margin-top: 5%;
 	margin-left:28%;
 	margin-right:28%;
 }
@@ -98,7 +100,7 @@ section.header{
 .clouds1{
 	position: absolute;
 	right: -180px;
-	top: 25%;
+	top: 34%;
 	z-index: 2;
 	animation: ballmoving 90s infinite linear;
 	-moz-animation: ballmoving 90s infinite linear;
@@ -110,7 +112,7 @@ section.header{
 .clouds2{
 	position: absolute;
 	right: -180px;
-	top: 29%;
+	top: 36%;
 	z-index: 2;
 	animation: ballmoving 80s infinite linear;
 	-moz-animation: ballmoving 80s infinite linear;
@@ -123,7 +125,7 @@ section.header{
 .clouds3{
 	position: absolute;
 	right: -120px;
-	top: 20%;
+	top: 28%;
 	animation: ballmoving 70s infinite linear;
 	-moz-animation: ballmoving 70s infinite linear;
 	-webkit-animation: ballmoving 70s infinite linear;
@@ -131,7 +133,7 @@ section.header{
 }
 .clouds4{
 	position: absolute;
-	top: 23%;
+	top: 30%;
 	right: -115px;
 	animation: ballmoving 83s infinite linear;
 	-moz-animation: ballmoving 83s infinite linear;
