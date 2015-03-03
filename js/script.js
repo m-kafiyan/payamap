@@ -29,6 +29,23 @@ $(document).ready(function(){
 
 	});
 
+	// var text=[];
+	// text[0]='تهران';
+	// text[1]='مشهد';
+	// for (var j=0; j<text.length; j++) {
+	// 	var chars = text[j].slice('');
+	// 	var container = document.getElementById("write");
+	// 	var i = 0;
+	// 	setInterval(function () {
+ //    	if (i < chars.length) {
+ //       	 container.innerHTML += chars[i++];
+ //    	} else {
+ //        	i = 0;
+ //        	container.innerHTML = "";
+ //   		 }
+	// 	}, 800);
+	// };
+	
 
 });
 

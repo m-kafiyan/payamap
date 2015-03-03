@@ -48,6 +48,8 @@ h4 {
 	font-size: 1em;
 	margin: 1.33em 0;
 }
+
+
 /************fonts*********************/
 @font-face {
 	font-family: 'Yekan';
@@ -103,6 +105,7 @@ section.header {
 	background: #a0d8c0 url('image/bilding.png') no-repeat center bottom;
 	margin-top: 5%;
 	min-height: 950px;
+	background-size: contain;
 }
 .lh-lg {
 	padding-top: 4%;
@@ -191,6 +194,7 @@ section.newcity-page {
 	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
 	background: url('image/backgray.png') repeat-x center center;
 	min-height: 950px;
+	background-size: contain;
 }
 div.newcitybg {
 	background: url('image/city.png') no-repeat center bottom;
@@ -507,6 +511,9 @@ right:113%;
 .customer .more-info {
 	font-size: 22px;
 }
+.faq h3:after {
+	height: 92px !important;
+}
 }
 
 
@@ -583,6 +590,7 @@ section.start-page {
 .customer .info1, .customer .info2 {
 	font-size: 13px;
 }
+
 }
 
 
@@ -636,6 +644,13 @@ section.header,  section.newcity-page,  section.customer {
 }
 .free-signup a {
 	padding: 2% 0 2% 0;
+}
+.faq h3:after {
+	height: 60px !important;
+}
+.faq-wrapper {
+	margin-top:17% !important;
+
 }
 }
 .navbar-toggle {
@@ -735,9 +750,22 @@ label {	font-weight:normal !important;
 }
 .faq h3 {
 	line-height:70px;
+	background: #ff8400;
+	color: #fff;
+	padding: 5% 0 5% 0;
 }
+.faq h3:after{
+	content:'';
+	background:url('image/question.jpg') no-repeat center bottom;
+	display:block; 
+	width: 100%;
+	position:absolute;
+	height:100px;
+	/*bottom: 135px;*/
+} 
 .faq-wrapper {
-	margin-top:50px;
+	margin-top:8%;
+
 }
 .panel-default>.panel-heading{
 	box-shadow:none; 
@@ -760,12 +788,3 @@ label {	font-weight:normal !important;
 	border:none; 
 	position:relative;
 }
-.panel-default:before{
-	content:''; background:url(image/sign.jpg) no-repeat right top;
-	width:32px;
-	height:47px; 
-	display:block; 
-	position:absolute; 
-	top:0;
- 	right:-28px;
- }
