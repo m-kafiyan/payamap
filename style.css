@@ -235,7 +235,7 @@ section.start-page .col-ms-4 {
 	display: block;
 	text-align: center;
 	padding: 0.75% 0% 0.75% 0%;
-	font-size: 30px;
+	font-size: 25px;
 	margin-top: 6%;
 }
 a.startbtn:hover {
@@ -428,9 +428,14 @@ right:105%;
 right:113%;
 }
 }
-@media screen and (max-width: 1920) {
-.pd-top {
-	padding-top: 6%;
+@media screen and (max-width: 1500) {
+
+.faq h3{
+	padding: 5% 0 5% 0 !important;
+
+}
+.faq h3:after{
+	height: 100px !important;
 }
 }
 @media screen and (max-width: 1000px) {
@@ -460,7 +465,7 @@ right:113%;
 	padding: 3% 6% 0 6%;
 }
 .startbtn {
-	font-size: 27px;
+	font-size: 25px;
 }
 .town {
 	padding-top: 20%;
@@ -481,6 +486,9 @@ right:113%;
 	font-size: 25px;
 	margin-left: 28.3333%;
 	margin-right: 28.3333%;
+}
+.faq h3:after {
+	height: 87px !important;
 }
 }
 @media screen and (max-width: 800px) {
@@ -511,8 +519,8 @@ right:113%;
 .customer .more-info {
 	font-size: 22px;
 }
-.faq h3:after {
-	height: 92px !important;
+.startbtn {
+	font-size: 23px;
 }
 }
 
@@ -556,6 +564,13 @@ section.start-page {
 	margin-left: 21.333%;
 	margin-right: 21.333%;
 }
+.faq h3:after {
+	height: 74px !important;
+}
+.faq-wrapper {
+	margin-top:10% !important;
+
+}
 }
 
 
@@ -574,7 +589,7 @@ section.start-page {
 	font-size: 17px;
 }
 .startbtn {
-	font-size: 20px;
+	font-size: 18px;
 	margin-left: 38.667%;
 	margin-right: 38.667%;
 }
@@ -589,6 +604,13 @@ section.start-page {
 }
 .customer .info1, .customer .info2 {
 	font-size: 13px;
+}
+.faq h3:after {
+	height: 65px !important;
+}
+.faq-wrapper {
+	margin-top:17% !important;
+
 }
 
 }
@@ -609,9 +631,11 @@ section.header,  section.newcity-page,  section.customer {
 	font-size: 17px;
 }
 .startbtn {
-	font-size: 20px;
-	margin-left: 38.667%;
-	margin-right: 38.667%;
+	font-size: 15px;
+    margin-left: 32.667%;
+    margin-right: 32.667%;
+    padding: 2% 0;
+    width: 35%;
 }
 .clouds1 {
 	width: 20%;
@@ -653,6 +677,7 @@ section.header,  section.newcity-page,  section.customer {
 
 }
 }
+/*****************************************END OF MEDIA ************************************/
 .navbar-toggle {
 	display: block;
 	position: fixed;
@@ -706,13 +731,27 @@ transition:all 0.5s;
 	padding-left:80px;
 	z-index:401;
 }
-.bazar:hover { text-decoration:none; color:#fff;}
-.bazar-green{color:#31a59f;	background:url(image/bazarlogoblue.png) no-repeat left center;
+.bazar:hover { 
+	text-decoration:none; 
+	color:#fff;
 }
-.bazar-green:hover { text-decoration:none; color:#a0d8c0;}
-.green .icon-bar {background-color:#31a59f;}
-.faq{ direction:rtl;}
-.faq h3 {text-align:center;}
+.bazar-green{
+	color:#31a59f;	
+	background:url(image/bazarlogoblue.png) no-repeat left center;
+}
+.bazar-green:hover { 
+	text-decoration:none; 
+	color:#a0d8c0;
+}
+.green .icon-bar {
+	background-color:#31a59f;
+}
+.faq{ 
+	direction:rtl;
+}
+.faq h3 {
+	text-align:center;
+}
 
 @media (max-width:625px) {
 .menu {
@@ -728,7 +767,8 @@ transition:all 0.5s;
 	color: #fff;
 	float: left;
 }
-label {	font-weight:normal !important;
+label {	
+	font-weight:normal !important;
 }
 .contact-page {
 	direction: rtl;
@@ -761,7 +801,6 @@ label {	font-weight:normal !important;
 	width: 100%;
 	position:absolute;
 	height:100px;
-	/*bottom: 135px;*/
 } 
 .faq-wrapper {
 	margin-top:8%;
@@ -787,4 +826,25 @@ label {	font-weight:normal !important;
 .panel-default{
 	border:none; 
 	position:relative;
+}
+.ab-text{
+	font-size: 15px;
+	line-height: 2;
+	padding-bottom: 5%;
+}
+.ab-text a{
+	text-decoration:none; 
+	color: #000;
+}
+.ab-text a:hover{
+	color: #888;
+}
+a.ab-info{
+	color: #777 !important;
+}
+a.ab-info:hover{
+	color: #aaa !important;
+}
+.ab-text h4{
+	font-size: 1.1em;
 }
