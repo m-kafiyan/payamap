@@ -48,20 +48,18 @@ h4 {
 	font-size: 1em;
 	margin: 1.33em 0;
 }
-
-
 /************fonts*********************/
 @font-face {
 	font-family: 'Yekan';
 	src: url('fonts/BYekan.eot');
-	src: url('fonts/BYekan.eot?#iefix') format('embedded-opentype'),  url('fonts/BYekan.woff') format('woff'),  url('fonts/BYekan.ttf') format('truetype');
+	src: url('fonts/BYekan.eot?#iefix') format('embedded-opentype'), url('fonts/BYekan.woff') format('woff'), url('fonts/BYekan.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Lato';
 	src: url('fonts/Lato.eot');
-	src: url('fonts/Lato.eot?#iefix') format('embedded-opentype'),  url('fonts/Lato.woff') format('woff'),  url('fonts/Lato.ttf') format('truetype');
+	src: url('fonts/Lato.eot?#iefix') format('embedded-opentype'), url('fonts/Lato.woff') format('woff'), url('fonts/Lato.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -128,9 +126,9 @@ section.header {
 	padding-top: 5%;
 }
 .mouse {
-	 position: relative;
-    -webkit-animation: moving 5s infinite;
-    animation: moving 5s infinite;
+	position: relative;
+	-webkit-animation: moving 5s infinite;
+	animation: moving 5s infinite;
 }
 .mouse img {
 	max-width: 30px;
@@ -429,12 +427,10 @@ right:113%;
 }
 }
 @media screen and (max-width: 1500) {
-
-.faq h3{
+.faq h3 {
 	padding: 5% 0 5% 0 !important;
-
 }
-.faq h3:after{
+.faq h3:after {
 	height: 100px !important;
 }
 }
@@ -457,10 +453,10 @@ right:113%;
 .clouds4 {
 	top: 12%;
 }
-.left-arrow img,  .right-arrow img,  .center-arrow img {
+.left-arrow img, .right-arrow img, .center-arrow img {
 	width: 70%;
 }
-.left-arrow p,  .right-arrow p,  .center-arrow p {
+.left-arrow p, .right-arrow p, .center-arrow p {
 	font-size: 22px;
 	padding: 3% 6% 0 6%;
 }
@@ -568,8 +564,7 @@ section.start-page {
 	height: 74px !important;
 }
 .faq-wrapper {
-	margin-top:10% !important;
-
+	margin-top: 10% !important;
 }
 }
 
@@ -596,7 +591,7 @@ section.start-page {
 .tabligh {
 	font-size: 19px;
 }
-.sendsms,  .customer .more-info,  .free-signup a {
+.sendsms, .customer .more-info, .free-signup a {
 	font-size: 14px;
 }
 .town p, .customer p {
@@ -609,17 +604,15 @@ section.start-page {
 	height: 65px !important;
 }
 .faq-wrapper {
-	margin-top:17% !important;
-
+	margin-top: 17% !important;
 }
-
 }
 
 
 /*screen less than 360px **********************************************/
 
 @media screen and (max-width:360px) {
-section.header,  section.newcity-page,  section.customer {
+section.header, section.newcity-page, section.customer {
 	min-height: 700px;
 }
 .left-arrow img, .right-arrow img, .center-arrow img {
@@ -632,10 +625,10 @@ section.header,  section.newcity-page,  section.customer {
 }
 .startbtn {
 	font-size: 15px;
-    margin-left: 32.667%;
-    margin-right: 32.667%;
-    padding: 2% 0;
-    width: 35%;
+	margin-left: 32.667%;
+	margin-right: 32.667%;
+	padding: 2% 0;
+	width: 35%;
 }
 .clouds1 {
 	width: 20%;
@@ -652,7 +645,7 @@ section.header,  section.newcity-page,  section.customer {
 .tabligh {
 	font-size: 19px;
 }
-.sendsms,  .customer .more-info,  .free-signup a {
+.sendsms, .customer .more-info, .free-signup a {
 	font-size: 14px;
 }
 .town p, .customer p {
@@ -673,93 +666,99 @@ section.header,  section.newcity-page,  section.customer {
 	height: 60px !important;
 }
 .faq-wrapper {
-	margin-top:17% !important;
-
+	margin-top: 17% !important;
 }
 }
 /*****************************************END OF MEDIA ************************************/
 .navbar-toggle {
 	display: block;
-	position: fixed;
-	right: 30px;
-	top: 10px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }
 .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
+.navbar .tel {
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	line-height: 45px;
+	padding-left: 30px;
+}
 .menu {
 	width: 300px;
-	position: fixed;
+	position: absolute;
 	z-index: 400;
-	right: 0;
 	background: rgba(0,0,0,0.7);
 	padding: 10px 30px;
 	text-align: right;
 	color: #fff;
 	transition: all 1s;
-	right: -300px;
+	right: -316px;
 }
-.menu li:first-child{
-	margin-top:20px;
+.menu li:first-child {
+	margin-top: 20px;
 }
 .menu a {
 	color: #fff;
 	line-height: 40px;
 	display: block;
 	width: 100%;
-text-decoration:none;
-transition:all 0.5s;
+	text-decoration: none;
+	transition: all 0.5s;
 }
-.menu a:hover {color:#31a59f;}
+.menu a:hover {
+	color: #31a59f;
+}
 .opened {
-	right: 0;
+	right: -16px;
 }
 .btnClose {
 	color: #fff;
 	font-size: 30px;
 	cursor: pointer;
 }
-.bazar-green,
-.bazar {
-	color:#fff;
-	display:block;
-	position:fixed;
-	right: 100px;
-	top: 12px;
-	line-height:43px;
-	background:url(image/bazarlogo.png) no-repeat left center;
-	padding-left:80px;
-	z-index:401;
+.bazar-green, .bazar {
+	color: #fff;
+	display: block;
+	position: absolute;
+	right: 80px;
+	top: 2px;
+	line-height: 43px;
+	background: url(image/bazarlogo.png) no-repeat left center;
+	padding-left: 80px;
+	z-index: 401;
 }
-.bazar:hover { 
-	text-decoration:none; 
-	color:#fff;
+.bazar:hover {
+	text-decoration: none;
+	color: #fff;
 }
-.bazar-green{
-	color:#31a59f;	
-	background:url(image/bazarlogoblue.png) no-repeat left center;
+.bazar-green {
+	color: #31a59f;
+	background: url(image/bazarlogoblue.png) no-repeat left center;
 }
-.bazar-green:hover { 
-	text-decoration:none; 
-	color:#a0d8c0;
+.bazar-green:hover {
+	text-decoration: none;
+	color: #a0d8c0;
+}
+@media(max-width:768px) {
+.bazar-green, .bazar {
+	display: none;
+}
 }
 .green .icon-bar {
-	background-color:#31a59f;
+	background-color: #31a59f;
 }
-.faq{ 
-	direction:rtl;
+.faq {
+	direction: rtl;
 }
 .faq h3 {
-	text-align:center;
+	text-align: center;
 }
-
-@media (max-width:625px) {
+ @media (max-width:625px) {
 .menu {
 	width: 100%;
-	right: -100%;
-}
-.opened {
-	right: 0;
 }
 }
 .btn-send {
@@ -767,13 +766,14 @@ transition:all 0.5s;
 	color: #fff;
 	float: left;
 }
-label {	
-	font-weight:normal !important;
+label {
+	font-weight: normal !important;
 }
+.title-contact{margin-top:200px;}
 .contact-page {
 	direction: rtl;
-	font-weight:normal !important;
-	text-shadow:none !important;
+	font-weight: normal !important;
+	text-shadow: none !important;
 }
 .contact-page input, .contact-page textarea {
 	background-color: transparent;
@@ -785,8 +785,24 @@ label {
 .contact-page input:focus, .contact-page textarea:focus {
 	box-shadow: none;
 }
+.contact-page .form-horizontal .control-label {
+	text-align: left;
+}
+.contact-page .form-horizontal {
+	margin-top: 20px;
+}
+.fright {
+	float: right !important;
+}
+.green {
+	color: #31a59f !important;
+}
+.tel.green {
+	float: left;
+	background: url(image/btel.png) no-repeat left center;
+}
 .faq .startbtn {
-	margin-bottom:30px;
+	margin-bottom: 30px;
 }
 .faq h3 {
 	line-height:70px;
@@ -801,50 +817,79 @@ label {
 	width: 100%;
 	position:absolute;
 	height:100px;
-} 
+}
 .faq-wrapper {
-	margin-top:8%;
+	margin-top: 8%;
+}
+.panel-default>.panel-heading {
+	box-shadow: none;
+	background-color: #74767c;
+	border-radius: 2px;
+	background-image: none;
+	line-height: 22px;
+	min-height: 47px;
+	padding-top: 15px;
+}
+.panel-title>a {
+	color: #fff;
+	text-decoration: none;
+}
+.panel-collapse>.panel-body {
+	background-color: #97989d;
+	color: #fff;
+	margin-top: 5px;
+}
+.panel-default {
+	border: none;
+	position: relative;
+}
 
+#map-canvas {
+	min-height: 800px;
+	width: 100%
 }
-.panel-default>.panel-heading{
-	box-shadow:none; 
-	background-color:#74767c; 
-	border-radius:2px;
-	background-image:none;
-	min-height:47px;
-	padding-top:15px;
+@media (max-width:765px) {
+.footer {
+	margin-bottom: 15px;
 }
-.panel-title>a{
-	color:#fff; 
-	text-decoration:none; 
+#map-canvas {
+	height: 400px;
 }
-.panel-collapse>.panel-body{
-	background-color:#97989d; 
-	color:#fff; 
-	margin-top:5px;
+.title-contact{margin-top:50px;padding-right:20px;font-size:20px;}
+.sub-contact {padding-right:20px;}
+.footer-img img {
+	height:90px;
 }
-.panel-default{
-	border:none; 
-	position:relative;
 }
-.ab-text{
+.ab-text {
 	font-size: 15px;
 	line-height: 2;
 	padding-bottom: 5%;
 }
-.ab-text a{
-	text-decoration:none; 
+.ab-text a {
+	text-decoration: none;
 	color: #000;
 }
-.ab-text a:hover{
+.ab-text a:hover {
 	color: #888;
 }
-a.ab-info{
+a.ab-info {
 	color: #777 !important;
 }
-a.ab-info:hover{
+a.ab-info:hover {
 	color: #aaa !important;
 }
-.ab-text h4{
+.ab-text h4 {
 	font-size: 1.1em;
+}
+div.town .wh-from{
+	width: 60%;
+}
+div.town .wh-from p{
+	padding-left:2%;
+	text-align:left;
+}
+.city-name{
+	padding: 0;
+	width: 30%;
 }
