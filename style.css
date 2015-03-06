@@ -76,6 +76,7 @@ body {
 	background: #a0d8c0;
 	overflow-x: hidden;
 	font-family: 'Yekan';
+	width: 100%;
 }
 .font-yekan {
 	font-family: 'Yekan';
@@ -211,6 +212,9 @@ section.contact-page {
 	color: white;
 	min-height: 700px;
 }
+section.main-footer{
+	min-height: 50px;
+}
 .pd-top {
 	padding-top: 10%;
 }
@@ -275,6 +279,7 @@ a.startbtn:hover {
 }
 .free-signup {
 	margin-top: 14%;
+	margin-bottom: 5%;
 }
 .free-signup a {
 	color: #fff;
@@ -523,6 +528,12 @@ right:113%;
 
 /*screen between 460px and 768px**********************************************/
 @media all and (min-width: 460px) and (max-width:767px) {
+section.header, section.newcity-page, div.newcitybg {
+	min-height: 570px;
+}
+div.customer,section.customer-page{
+	min-height: 600px;
+}
 .tabligh {
 	font-size: 28px;
 }
@@ -557,8 +568,8 @@ section.start-page {
 	font-size: 20px;
 }
 .free-signup a {
-	margin-left: 21.333%;
-	margin-right: 21.333%;
+	margin-left: 17.333%;
+	margin-right: 17.333%;
 }
 .faq h3:after {
 	height: 74px !important;
@@ -574,6 +585,17 @@ section.start-page {
 @media all and (min-width: 361px) and (max-width:459px) {
 section.start-page {
 	min-height: 1150px;
+}
+section.header, section.newcity-page, div.newcitybg {
+	min-height: 410px;
+}
+div.customer,section.customer-page{
+	min-height: 470px;
+}
+.free-signup a{
+	width: 58.3333% !important;
+	margin-left:20.333% ;
+	margin-right:20.333%;
 }
 .left-arrow img, .right-arrow img, .center-arrow img {
 	width: 37%;
@@ -612,8 +634,11 @@ section.start-page {
 /*screen less than 360px **********************************************/
 
 @media screen and (max-width:360px) {
-section.header, section.newcity-page, section.customer {
-	min-height: 700px;
+section.header, section.newcity-page, div.newcitybg {
+	min-height: 410px;
+}
+div.customer,section.customer-page{
+	min-height: 450px;
 }
 .left-arrow img, .right-arrow img, .center-arrow img {
 	width: 37%;
@@ -655,8 +680,8 @@ section.header, section.newcity-page, section.customer {
 	font-size: 16px;
 }
 .free-signup a {
-	margin-left: 20.333%;
-	margin-right: 20.333%;
+	margin-left: 16.333%;
+	margin-right: 16.333%;
 	height: 35px;
 }
 .free-signup a {
@@ -713,11 +738,13 @@ section.header, section.newcity-page, section.customer {
 }
 .opened {
 	right: -16px;
+	display: block;
 }
 .btnClose {
 	color: #fff;
 	font-size: 30px;
 	cursor: pointer;
+	z-index: 500;
 }
 .bazar-green, .bazar {
 	color: #fff;
@@ -758,7 +785,7 @@ section.header, section.newcity-page, section.customer {
 }
  @media (max-width:625px) {
 .menu {
-	width: 100%;
+	/*width: 100%;*/
 }
 }
 .btn-send {
@@ -806,7 +833,7 @@ label {
 }
 .faq h3 {
 	line-height:70px;
-	background: #ff8400;
+	background:#ef7c46;
 	color: #fff;
 	padding: 5% 0 5% 0;
 }
@@ -846,7 +873,9 @@ label {
 
 #map-canvas {
 	min-height: 800px;
-	width: 100%
+	width: 100%;
+	/*background:url('image/map.jpg') no-repeat;*/
+	
 }
 @media (max-width:765px) {
 .footer {
@@ -892,4 +921,7 @@ div.town .wh-from p{
 .city-name{
 	padding: 0;
 	width: 30%;
+}
+div.footer p{
+	font-size: 16px;
 }

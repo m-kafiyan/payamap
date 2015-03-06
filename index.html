@@ -17,24 +17,24 @@
 <script type="text/javascript" src="js/html5shiv.js"></script>
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js??sensor=false&language=fa"></script>
 <script>
-function initialize() {
-  var mapOptions = {
-    zoom: 14,
-    center:  new google.maps.LatLng(36.2604623,59.61675489999993),
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'),
-                                mapOptions);
+// function initialize() {
+//   var mapOptions = {
+//     zoom: 14,
+//     center:  new google.maps.LatLng(36.303422, 59.571832),
+//   }
+//   var map = new google.maps.Map(document.getElementById('map-canvas'),
+//                                 mapOptions);
 
-  var image = 'image/marker.png';
-  var myLatLng = new google.maps.LatLng(36.2604623,59.61675489999993);
-  var marker = new google.maps.Marker({
-      position: myLatLng,
-      map: map,
-      icon: image
-  });
-}
+//   var image = 'image/marker.png';
+//   var myLatLng = new google.maps.LatLng(36.303422, 59.571832);
+//   var marker = new google.maps.Marker({
+//       position: myLatLng,
+//       map: map,
+//       icon: image
+//   });
+// }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+// google.maps.event.addDomListener(window, 'load', initialize);
  
 </script>
 
@@ -51,8 +51,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
     <div class="menu"> <span class="btnClose">×</span>
       <ul>
-        <li><a href="">صفحه اصلی</a></li>
-        <li><a href="">صفحه اصلی</a></li>
+        <li><a href="index.html">صفحه اصلی</a></li>
+        <li><a href="question.html">سوالات متداول</a></li>
+        <li><a href="job.html">فرصت های شغلی</a></li>
+        <li><a href="aboutus.html">درباره ما</a></li>
       </ul>
     </div>
   </div>
@@ -90,7 +92,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
       <p class="text-center lead font-yekan" dir="rtl">در کمتر از 60 ثانیه می توانید سفارش خود را تکمیل کنید و هزینه آنرا آنلاین پرداخت کنید</p>
     </div>
   </div>
-  <a class="col-xs-offset-5 col-xs-3 col-sm-2 startbtn" href="#" role="button">شروع کنید</a> </section>
+  <a class="col-xs-offset-5 col-xs-3 col-sm-2 startbtn" href="http://payamap.ir/Panel/" role="button">شروع کنید</a> </section>
 <!-- <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ NEWCITY PAGE ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~-->
 <section class="row-fluid newcity-page">
   <div class="row-fluid newcitybg">
@@ -107,7 +109,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
       </div>
       <p class="text-center font-yekan lead lh-lg" dir="rtl">در پیامپ نقشه 25 شهر بزرگ کشور هست</p>
     </div>
-    <a class="col-xs-offset-5 col-xs-3 col-sm-2 startbtn" dir="rtl" href="#" role="button">شروع کنید</a> 
+    <a class="col-xs-offset-5 col-xs-3 col-sm-2 startbtn" dir="rtl" href="http://payamap.ir/Panel/" role="button">شروع کنید</a> 
   </div>
 </section>
 
@@ -118,7 +120,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <p class="text-center font-yekan lead info1" dir="rtl">پیامپ محصول شرکت عصر فرا ارتباط است</p>
     <p class="text-center font-yekan lead info2" dir="rtl">این شرکت از سال 85 در حوزه خدمات پیام کوتاه مشغول به فعالیت میباشد</p>
     <a class="pull-left font-yekan more-info" dir="rtl" href="#">اطلاعات بیشتر</a>
-    <div class="pull-left free-signup row-fluid"> <a class="font-yekan col-xs-offset-4 col-md-4 col-sm-5 col-xs-7" dir="rtl" href="#" role="button">ثبت نام در پیامپ رایگان است</a> </div>
+    <div class="pull-left free-signup row-fluid"> <a class="font-yekan col-xs-offset-4 col-md-4 col-sm-5 col-xs-8" dir="rtl" href="http://payamap.ir/panel/" role="button">ثبت نام در پیامپ رایگان است</a> </div>
   </div>
 </section>
 
@@ -133,29 +135,29 @@ google.maps.event.addDomListener(window, 'load', initialize);
         <div class="col-sm-offset-3 col-sm-7 col-xs-9">
           <input type="text" class="form-control" پ>
         </div>
-        <label class="col-sm-2 col-xs-3 control-label">نام</label>
+        <label class="col-sm-2 col-xs-3 control-label">نام :</label>
       </div>
       <div class="form-group">
         <div class="col-sm-offset-3 col-sm-7 col-xs-9">
           <input type="text" class="form-control" >
         </div>
-        <label class="col-sm-2 col-xs-3 control-label">ایمیل</label>
+        <label class="col-sm-2 col-xs-3 control-label">ایمیل :</label>
       </div>
       <div class="form-group">
         <div class="col-sm-offset-3 col-sm-7 col-xs-9">
           <input type="text" class="form-control">
         </div>
-        <label class="col-sm-2 col-xs-3 control-label">موبایل</label>
+        <label class="col-sm-2 col-xs-3 control-label">موبایل :</label>
       </div>
       <div class="form-group">
         <div class="col-sm-offset-3 col-sm-7 col-xs-9">
           <textarea class="form-control" rows="5"></textarea>
         </div>
-        <label class="col-sm-2 col-xs-3 control-label">پیغام</label>
+        <label class="col-sm-2 col-xs-3 control-label">پیغام :</label>
       </div>
       <div class="form-group">
         <div class="col-sm-offset-3 col-sm-7 col-xs-9">
-          <button type="submit" class="btn btn-send">ارسال</button>
+          <button type="submit" class="btn btn-send">ارسال :</button>
         </div>
       </div>
     </form>
@@ -163,8 +165,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
      <div class="col-xs-6">
        <h3>آدرس :</h3>
        <p>مشهد مقدس، خیابان راهنمایی، برج سلمان</p>
-       <p>تلفن : 05138032</p>
-       <p>05193853280</p>
+       <p class="phone-num">تلفن : 05138032</p>
+       <p class="phone-num">05193853280</p>
      </div>
           <div class="col-xs-3 footer-img">
           <img src="image/namad.png" />
@@ -174,10 +176,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </div>
     </div>
   </div>
-    <div class="col-sm-5 col-xs-12"> <div id="map-canvas"></div></div>
+    <div class="col-sm-5 col-xs-12"> <img id="map-canvas" src="image/map.jpg"></div>
 
 </section>
-
+    <section class="row-fluid main-footer"></section>
 <!-- <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ END ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ <><-->
 </body>
 </html>
