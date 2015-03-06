@@ -130,28 +130,28 @@
   <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 fright" >
     <h2 class="title-contact">هیچگاه شما را تنها نمی گذاریم</h2>
     <p class="sub-contact">لطفا پیغام بگذارید</p>
-    <form class="form-horizontal">
+    <form class="form-horizontal" action="email.php" method="post">
       <div class="form-group">
         <div class="col-sm-offset-3 col-sm-7 col-xs-9">
-          <input type="text" class="form-control" پ>
+          <input type="text" class="form-control" name="name">
         </div>
         <label class="col-sm-2 col-xs-3 control-label">نام :</label>
       </div>
       <div class="form-group">
         <div class="col-sm-offset-3 col-sm-7 col-xs-9">
-          <input type="text" class="form-control" >
+          <input type="text" class="form-control" name="email">
         </div>
         <label class="col-sm-2 col-xs-3 control-label">ایمیل :</label>
       </div>
       <div class="form-group">
         <div class="col-sm-offset-3 col-sm-7 col-xs-9">
-          <input type="text" class="form-control">
+          <input type="text" class="form-control" name="mobile">
         </div>
         <label class="col-sm-2 col-xs-3 control-label">موبایل :</label>
       </div>
       <div class="form-group">
         <div class="col-sm-offset-3 col-sm-7 col-xs-9">
-          <textarea class="form-control" rows="5"></textarea>
+          <textarea class="form-control" rows="5" name="content"></textarea>
         </div>
         <label class="col-sm-2 col-xs-3 control-label">پیغام :</label>
       </div>
