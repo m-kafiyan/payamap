@@ -29,7 +29,7 @@ function email($content,$name,$email,$mobile)
 				<tr><td>متن پیام : </td></tr><tr><td>'.$content.'</td></tr>
 			</table>
 			<div style="background-color:#eeeeee; border-color:#ffffff; border-bottom:1px solid; width:596px; margin: 0px auto; text-align:center; padding:2px 5px;">
-				<a href="http://www.ashenacell.ir" style="text-decoration:none; color:#999999; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px;">w w w . A b c d . i r</a>
+				<a href="http://www.abcd.ir" style="text-decoration:none; color:#999999; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px;">w w w . A b c d . i r</a>
 			</div>
 		</body>
 	</html>';
@@ -38,7 +38,12 @@ function email($content,$name,$email,$mobile)
 
 
 
-	mail( 'info@ashenacell.ir', $subject_user, $message_user, $headers_user );
+	mail( 'maedeh.kafiyan@gmail.com', $subject_user, $message_user, $headers_user );
+	//mail( 'Yavari@afe.ir', $subject_user, $message_user, $headers_user );
+	//mail( 'Abbasi@afe.ir', $subject_user, $message_user, $headers_user );
+	//mail( 'Hasani@afe.ir', $subject_user, $message_user, $headers_user );
+	
+
 	header('Location: index.html?email=sent');
 	//echo "Email Sent to {$username1} .<br>";
 
