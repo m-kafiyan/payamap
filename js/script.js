@@ -8,14 +8,10 @@ $(document).ready(function(){
  // <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ mobile RTL main index page ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< 
 	$(window).resize(function() {
 		var pageWidth = $(window).width();
-		if( $(window).width()< 768){
+		if( $(window).width()< 767){
 			$('.large-desk').addClass('visibility-hidden');
 			$('.mobile-size').removeClass('visibility-hidden');
-		if($(window).width()<600){
-			$('.main-footer ul').removeClass('list-inline');
-			$('.large-desk').addClass('visibility-hidden');
-			$('.mobile-size').removeClass('visibility-hidden');
-		}	
+			$('.main-footer ul').removeClass('list-inline');	
 		}
 
 	});

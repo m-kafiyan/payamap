@@ -73,16 +73,16 @@ h4 {
 	margin 				: 0 auto;
 }
 html, body {
-  max-width 			: 100%;
+  width 			: 100%;
+  overflow-x:hidden 
 }
 body {
 	background 			: #a0d8c0;
-	overflow-x			: hidden;
+	/*overflow-x			: hidden;*/
 	font-family			: 'Yekan';
-	max-width			: 100%;
 }
 .over-fl{
-	overflow-x			:hidden; 
+	overflow			:hidden; 
 }
 .font-yekan {
 	font-family			: 'Yekan';
@@ -152,7 +152,7 @@ section.header {
 	animation 			: ballmoving 90s infinite linear;
 	-moz-animation 		: ballmoving 90s infinite linear;
 	-webkit-animation 	: ballmoving 90s infinite linear;
-	/*animation-delay 	: 21s;*/
+	animation-delay 	: 21s;
 	-moz-animation-delay: 21s;
 	/*-webkit-animation-delay:21s;*/
 }
@@ -164,7 +164,7 @@ section.header {
 	animation 			: ballmoving 90s infinite linear;
 	-moz-animation 		: ballmoving 90s infinite linear;
 	-webkit-animation 	: ballmoving 90s infinite linear;
-	/*animation-delay 	: 45s;*/
+	animation-delay 	: 45s;
 	-moz-animation-delay: 45s;
 	/*-webkit-animation-delay:45s;*/
 }
@@ -175,7 +175,7 @@ section.header {
 	animation 			: ballmoving 90s infinite linear;
 	-moz-animation 		: ballmoving 90s infinite linear;
 	-webkit-animation 	: ballmoving 90s infinite linear;
-	/*animation-delay 	: 30s;*/
+	animation-delay 	: 30s;
 	-moz-animation-delay: 30s;
 	/*-webkit-animation-delay:30s;*/
 }
@@ -186,7 +186,7 @@ section.header {
 	animation 			: ballmoving 90s infinite linear;
 	-moz-animation 		: ballmoving 90s infinite linear;
 	-webkit-animation 	: ballmoving 90s infinite linear;
-	/*animation-delay 	: 3s;*/
+	animation-delay 	: 3s;
 	-moz-animation-delay: 3s;
 	/*-webkit-animation-delay:3s;*/
 }
@@ -351,7 +351,7 @@ a.startbtn:hover {
 }
 @-webkit-keyframes ballmoving {
  0% {
-right:2%;
+right:0%;
 }
 10%{
 	right:10%; 
@@ -593,6 +593,27 @@ section.start-page {
 .faq-wrapper {
 	margin-top			: 10% !important;
 }
+.map-site{
+	border-right: none !important;
+	height: 600px;
+	padding-top: 5px;
+}
+.h-dif{
+	height: 700px;
+}
+section.contact-page{
+	min-height			: 1605px !important;
+	background:#5894a1 url('image/contact.jpg') no-repeat right top;
+}
+section.main-footer{
+	min-height 				: 160px !important;
+}
+.tel-wi{
+	width: 30% !important;
+}
+.tel-wi-pr{
+	width: 70% !important;
+}
 }
 
 
@@ -666,6 +687,18 @@ section.customer-page{
 }
 .map-site{
 	border-right: none !important;
+	height: 600px;
+	padding-top: 5px;
+}
+.h-dif{
+	height: 700px;
+}
+section.contact-page{
+	min-height			: 1605px !important;
+	background:#5894a1 url('image/contact.jpg') no-repeat right top;
+}
+section.main-footer{
+	min-height 				: 150px !important;
 }
 }
 
@@ -682,10 +715,11 @@ div.newcitybg {
 	min-height			: 410px;
 }
 section.contact-page{
-	min-height			: 1500px !important;
+	min-height			: 1605px !important;
+	background:#5894a1 url('image/contact.jpg') no-repeat right top;
 }
 section.main-footer{
-	height 				: 100px !important;
+	min-height 				: 140px !important;
 }
 section.main-footer ul li a,
 section.main-footer p{
@@ -764,6 +798,14 @@ section.customer-page {
 }
 .map-site{
 	border-right: none !important;
+	height: 600px;
+	padding-top: 5px;
+}
+.h-dif{
+	height: 700px;
+}
+section.main-footer ul li{
+	width: 100% !important;
 }
 }
 /*****************************************END OF MEDIA ************************************/
