@@ -1,40 +1,53 @@
 
 $(document).ready(function(){
-
+ // <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ scroll arrow js codes ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< 
 	$('.mouse-move').click(function (){
-		$('html, body').animate({scrollTop:
-			100 }, 600);
+		var elementOffset = $('.start-page').offset().top;
+		$('html, body').animate({'scrollTop':elementOffset },2000);
     });
-
-
+ // <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ mobile RTL main index page ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< 
 	$(window).resize(function() {
 		var pageWidth = $(window).width();
 		if( $(window).width()< 768){
 			$('.large-desk').addClass('visibility-hidden');
 			$('.mobile-size').removeClass('visibility-hidden');
+		if($(window).width()<600){
+			$('.main-footer ul').removeClass('list-inline');
+			$('.large-desk').addClass('visibility-hidden');
+			$('.mobile-size').removeClass('visibility-hidden');
+		}	
 		}
+
+	});
+ // <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ cloudes fade in and moving ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< 
+
+	setTimeout(function(){
+		$(".clouds3").removeClass('.visibility-hidden')
+		$(".clouds3").delay(30000).fadeIn(3000);
+		$(".clouds2").removeClass('.visibility-hidden')
+		$(".clouds2").delay(45000).fadeIn(2000);
+		$(".clouds1").removeClass('.visibility-hidden')
+		$(".clouds1").delay(20000).fadeIn(3000);
+		$(".clouds4").removeClass('.visibility-hidden')
+		$(".clouds4").fadeIn(4000);
 	});
 
+ // <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ menu icon close and show ~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< 
 
 		$('.navbar-toggle').click(function() {
-			$('.navbar-toggle').fadeOut();
-			
-			$('.menu').addClass('opened');
+			$('.top-m').toggleClass('top-animate');
+			$('.mid-m').toggleClass('mid-animate');
+			$('.bottom-m').toggleClass('bottom-animate');
+			$('.menu').toggleClass('opened');
 			var height = $( window ).height();
 			$('.menu').css('height',height);
 
-
-	});
-
-	$('.btnClose').click(function() {
-			$('.menu').removeClass('opened');
-			$('.navbar-toggle').fadeIn();
-
 	});
 
 
+ // <>< ~~ <>< ~~ <>< ~~ <>< ~~ showing city keyborde effect~~ <>< ~~ <>< ~~ <>< ~~ <>< ~~ <>< 
 
-	//var str = "<p>This is my <span style='color:red;'>special string</span> with an <img src='http://placehold.it/150x150'> image !</p><p>This is my <span style='color:red;'>special string</span> with an <img src='http://placehold.it/150x150'> image !</p>",
+	
 	var i = 0,
 	isTag,
 	text;
@@ -76,9 +89,6 @@ $(document).ready(function(){
 		if( char === '>' ) isTag = false;
 
 		if (isTag) return type();
-		setTimeout(type, 250);
+		setTimeout(type, 280);
 	}());
-
-
-
 });
