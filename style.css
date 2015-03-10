@@ -594,25 +594,25 @@ section.start-page {
 	margin-top			: 10% !important;
 }
 .map-site{
-	border-right: none !important;
-	height: 600px;
-	padding-top: 5px;
+	border-right		: none !important;
+	height 				: 600px;
+	padding-top			: 5px;
 }
 .h-dif{
-	height: 700px;
+	height 				: 700px;
 }
 section.contact-page{
 	min-height			: 1605px !important;
-	background:#5894a1 url('image/contact.jpg') no-repeat right top;
+	background 			:#5894a1 url('image/contact.jpg') no-repeat right top;
 }
 section.main-footer{
-	min-height 				: 160px !important;
+	min-height 			: 160px !important;
 }
 .tel-wi{
-	width: 30% !important;
+	width 				: 30% !important;
 }
 .tel-wi-pr{
-	width: 70% !important;
+	width 				: 70% !important;
 }
 }
 
@@ -632,7 +632,7 @@ div.newcitybg {
 	min-height			: 410px;
 }
 section.main-footer{
-	min-height 				: 100px !important;
+	min-height 			: 100px !important;
 }
 div.customer,
 section.customer-page{
@@ -683,19 +683,19 @@ section.customer-page{
 	margin-top			: 17% !important;
 }
 .navbar .tel {
-	font-size: 17px !important;
+	font-size			: 17px !important;
 }
 .map-site{
-	border-right: none !important;
-	height: 600px;
-	padding-top: 5px;
+	border-right		: none !important;
+	height 				: 600px;
+	padding-top			: 5px;
 }
 .h-dif{
-	height: 700px;
+	height 				: 700px;
 }
 section.contact-page{
 	min-height			: 1605px !important;
-	background:#5894a1 url('image/contact.jpg') no-repeat right top;
+	background 			:#5894a1 url('image/contact.jpg') no-repeat right top;
 }
 section.main-footer{
 	min-height 				: 150px !important;
@@ -719,7 +719,7 @@ section.contact-page{
 	background:#5894a1 url('image/contact.jpg') no-repeat right top;
 }
 section.main-footer{
-	min-height 				: 140px !important;
+	min-height 			: 140px !important;
 }
 section.main-footer ul li a,
 section.main-footer p{
@@ -794,18 +794,18 @@ section.customer-page {
 	margin-top 			: 17% !important;
 }
 .navbar .tel {
-	font-size: 17px !important;
+	font-size			: 17px !important;
 }
 .map-site{
-	border-right: none !important;
-	height: 600px;
-	padding-top: 5px;
+	border-right		: none !important;
+	height 				: 600px;
+	padding-top			: 5px;
 }
 .h-dif{
-	height: 700px;
+	height 				: 700px;
 }
 section.main-footer ul li{
-	width: 100% !important;
+	width 				: 100% !important;
 }
 }
 /*****************************************END OF MEDIA ************************************/
@@ -1085,8 +1085,8 @@ div.footer p{
  .map-site{
  	padding-right 		: 0px !important;
 	border-right		: 3px solid #31a59f;
-	padding-left: 0px !important;
-	float: left;
+	padding-left		: 0px !important;
+	float 				: left;
  }
  div.menu ul{
  	margin-top			: 40px;
