@@ -349,6 +349,12 @@ a.startbtn:hover {
 	color 					: #fff;
 	padding-bottom			: 3%;
 }
+.navbar{
+	min-height				: 53px;
+}
+.pd-right-p{
+	padding-right: 3.5%;
+}
 @-webkit-keyframes ballmoving {
  0% {
 right:0%;
@@ -614,6 +620,7 @@ section.main-footer{
 .tel-wi-pr{
 	width 				: 70% !important;
 }
+
 }
 
 
@@ -814,9 +821,11 @@ section.main-footer ul li{
 	position 			: absolute;
 	right 				: 0px;
 	top 				: 0px;
+	z-index				: 401;
 }
 .navbar-toggle .icon-bar {
 	background-color	: #fff;
+	z-index				: 401;
 }
 .navbar .tel {
 	display				: block;
