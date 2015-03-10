@@ -50,24 +50,25 @@ $(document).ready(function(){
 	var city_id = 0;
 	(function type() {
 		var text_arr= new Array();
-		text_arr[0]='تهران;';
-		text_arr[1]='مشهد;';
-		text_arr[2]='اصفهان;';
-		text_arr[3]='تبریز;';
-		text_arr[4]='آمل;';
-		text_arr[5]='کرج;';
-		text_arr[6]='اراک;';
-		text_arr[7]='کرمانشاه;';
-		text_arr[8]='ارومیه;';
-		text_arr[9]='بابل;';
-		text_arr[10]='اهواز;';
-		text_arr[11]='زنجان;';
-		text_arr[12]='شیراز;';
-		text_arr[13]='کرمان;';
-		text_arr[14]='اردبیل;';
+		text_arr[0]='تهران:::;';
+		text_arr[1]='مشهد:::;';
+		text_arr[2]='اصفهان:::;';
+		text_arr[3]='تبریز:::;';
+		text_arr[4]='آمل:::;';
+		text_arr[5]='کرج:::;';
+		text_arr[6]='اراک:::;';
+		text_arr[7]='کرمانشاه:::;';
+		text_arr[8]='ارومیه:::;';
+		text_arr[9]='بابل:::;';
+		text_arr[10]='اهواز:::;';
+		text_arr[11]='زنجان:::;';
+		text_arr[12]='شیراز:::;';
+		text_arr[13]='کرمان:::;';
+		text_arr[14]='اردبیل:::;';
 
 
 		var str = text_arr[city_id];
+		current_char = str.slice(i, i+1);
 		text = str.slice(0, ++i);
 		if (text === str)
 		{
@@ -77,7 +78,7 @@ $(document).ready(function(){
 				city_id = 0
 				return type();
 		}
-
+		if (current_char != ":") {
 		document.getElementById("write").innerHTML = text;
 
 		var char = text.slice(-1);
@@ -86,5 +87,6 @@ $(document).ready(function(){
 
 		if (isTag) return type();
 		setTimeout(type, 280);
+		};
 	}());
 });

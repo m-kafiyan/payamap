@@ -902,10 +902,10 @@ section.main-footer ul li{
 .top-animate {
     background 			: #fff !important;
     top 				: 13px !important;
-    -webkit-transform 	: rotate(43deg);
-    transform 			: rotate(43deg);
-    transform-origin 	: 7% 100%;
-    -webkit-transform-origin: 7% 100%;
+    -webkit-transform 	: rotate(224deg);
+    transform 			: rotate(224deg);
+    transform-origin 	: 62% 100%;
+    -webkit-transform-origin: 62% 100%;
 }
 .mid-animate {
     opacity 			: 0;
@@ -915,8 +915,8 @@ section.main-footer ul li{
     top 				: 13px !important;
     -webkit-transform 	: rotate(-221deg);
     transform 			: rotate(-221deg);
-    transform-origin 	: 45% 18%;
-    -webkit-transform-origin: 45% 18%;
+    transform-origin 	: 62% 0%;
+    -webkit-transform-origin: 62% 0%;
     margin-top 			: 0px !important;
 }
 .green .icon-bar {
