@@ -86,7 +86,7 @@ $(document).ready(function(){
 		if( char === '>' ) isTag = false;
 
 		if (isTag) return type();
-		setTimeout(type, 280);
+		setTimeout(type, 200);
 		///////////////////////////////////////////};
 	}());
 });
