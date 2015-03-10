@@ -78,7 +78,7 @@ $(document).ready(function(){
 				city_id = 0
 				return type();
 		}
-		if (current_char != ":") {
+		if (current_char != ":") //////////////////{
 		document.getElementById("write").innerHTML = text;
 
 		var char = text.slice(-1);
@@ -87,6 +87,6 @@ $(document).ready(function(){
 
 		if (isTag) return type();
 		setTimeout(type, 280);
-		};
+		///////////////////////////////////////////};
 	}());
 });
