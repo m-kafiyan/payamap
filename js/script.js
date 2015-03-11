@@ -37,6 +37,7 @@ $(document).ready(function(){
 			$('.menu').toggleClass('opened');
 			var height = $( window ).height();
 			$('.menu').css('height',height);
+			$('.dif-height-style').css('height',height)
 
 	});
 

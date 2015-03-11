@@ -74,7 +74,8 @@ h4 {
 }
 html, body {
   width 			: 100%;
-  overflow-x:hidden 
+  overflow-x		:hidden ;
+
 }
 body {
 	background 			: #a0d8c0;
