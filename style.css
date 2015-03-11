@@ -1101,3 +1101,15 @@ div.footer p{
  div.menu ul{
  	margin-top			: 40px;
  }
+.color-dif2{
+	color 				:#ff0000;
+}
+.al-dif{
+	text-align			:left;
+}
+.ar-dif{
+	text-align			:right;
+}
+.pd-lef{
+	padding-left		: 3%;
+}
